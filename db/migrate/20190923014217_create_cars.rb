@@ -3,7 +3,7 @@ class CreateCars < ActiveRecord::Migration[5.2]
     create_table :cars do |t|
       t.string :make
       t.string :model
-      t.string :vinNumber
+      t.string :VIN
       t.timestamps
     end
   end
